@@ -1,9 +1,10 @@
-FotoFilm — pliki PWA
+FotoFilm — Progressive Web App
 
-Zestaw zawiera stronę aplikacji, manifest instalacyjny, ikonę oraz service workera do podstawowej pracy offline.
+Publiczna aplikacja: https://iwozawiercie-gif.github.io/fotofilm/
+Repozytorium: https://github.com/iwozawiercie-gif/fotofilm
 
-Aby PWA działała instalowalnie, opublikuj całą zawartość tego folderu na serwerze HTTPS. Nie uruchamiaj index.html bezpośrednio z dysku — przeglądarki nie włączają service workera dla adresów file://.
+GitHub Pages publikuje aplikację z gałęzi main i katalogu głównego. Manifest, ikony 192×192 i 512×512 oraz service worker są skonfigurowane.
 
-Po publikacji otwórz adres w Edge lub Chrome i sprawdź opcję instalacji aplikacji. Następnie podaj publiczny adres PWA w PWA Builder, aby wygenerować pakiet do zgłoszenia w Microsoft Partner Center.
+Aby wygenerować pakiet Microsoft Store w PWA Builder, potrzebne są Package ID, Publisher ID oraz Publisher display name z Partner Center. Po zgłoszeniu PWA pakietu do Partner Center należy uzupełnić ofertę sklepową i przesłać wymagany zrzut ekranu.
 
-Eksport filmów korzysta z nagrywania obrazu strony (Canvas/MediaRecorder). Obsługa zależy od przeglądarki i urządzenia; zalecany Edge lub Chrome.
+Eksport filmów działa w przeglądarkach obsługujących Canvas i MediaRecorder; zalecany jest Edge lub Chrome.
