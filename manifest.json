@@ -1,0 +1,16 @@
+{
+  "id": ".",
+  "name": "FotoFilm — filmy ze zdjęć",
+  "short_name": "FotoFilm",
+  "description": "Twórz filmy ze zdjęć z muzyką, podpisami i przejściami.",
+  "lang": "pl-PL",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "any",
+  "theme_color": "#285c46",
+  "background_color": "#f6f5f1",
+  "icons": [
+    { "src": "icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any" }
+  ]
+}
